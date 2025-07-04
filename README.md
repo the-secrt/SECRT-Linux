@@ -1,8 +1,16 @@
 # SECRT-Linux
-This is a customized Linux distribution derived off Debian 12 (Bookworm) 
 
-Please note that this is only a modified installation of Debian 12 packaged as a Live CD image with the Calamares installer (Utility used for installing Linux while booted into the Live CD) 
+SECRT Linux is a lightweight & fast Linux distribution - Currently with an Alpine-based build for the iSH emulator (Debian-based version coming soon for computers) 
 
-Currently, SECRT Linux uses the default Debian repositories for the package manager "apt". A future release of SECRT Linux may include it's own dedicated package repositories included. This is not a guarantee and there is no ETA for status on custom repositories.
+Every SECRT Linux release tag will have two versions available prior to their release, a Debian-based image, and a Alpine-based image. 
 
-The initial release of SECRT Linux is based on Alpine Linux and made for use inside the iOS app "iSH" A desktop release will be made available soon along with the intial Debian-based release.
+Package management 📦: 
+The Alpine based SECRT Linux builds come with the "apk" package manager, known as the Alpine Package Keeper. 
+Debian-based builds come with package managers "dpkg" and "apt"  APT is also known as Advanced Package Tool.
+Currently, both Alpine and Debian-based builds use their original package management repositories, "deb.debian.org" for Debian, and "dl-cdn.alpinelinux.org" for Alpine.
+
+Installation information ⬇️: 
+Currently, Debian-based SECRT Linux builds are Live CD images, and can be installed using the included installer, called Calamares. (see https://calamares.io/  for information about this installer utility) 
+Alpine-based builds can be installed and setup using the command "setup-alpine" after logging in as the "root" user in the Live CD, default root password is "user"
+
+This README file may be subject to change alongside with releases of new SECRT Linux builds.
